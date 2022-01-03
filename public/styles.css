@@ -1,0 +1,106 @@
+@font-face {
+    font-family: "RobotoBold";
+    src: local("RobotoBold"),
+        url('./fonts/Roboto-Bold.woff2') format('woff2'),
+        url('./fonts/Roboto-Bold.woff') format('woff'),
+        url('./fonts/Roboto-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+} 
+
+@font-face {
+    font-family: "RobotoBlack";
+    src: url('./fonts/Roboto-Black.woff2') format('woff2'),
+        url('./fonts/Roboto-Black.woff') format('woff'),
+        url('./fonts/Roboto-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "RobotoRegular";
+    src: url('./fonts/Roboto-Regular.woff2') format('woff2'),
+        url('./fonts/Roboto-Regular.woff') format('woff'),
+        url('./fonts/Roboto-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+    
+}
+
+body{
+    max-width: 500px;
+    margin: auto;
+}
+.postBody {
+    display:"flex";
+    flex-direction: "column";
+    width:630px;
+    justify-content:"center";
+    padding-left: 5.22rem;
+    padding-top: 3.5rem;
+}
+
+.font-face-rbold {
+    font-family: "RobotoBold";
+    font-size:15px;
+}
+
+.font-face-rregular{
+    font-family:"RobotoRegular";
+    font-size:15px;
+}
+
+.font-face-rblack{
+    font-family:"RobotoBlack";
+    font-size:19px;
+    margin-top: 54px;
+    margin-left:32px;
+    margin-bottom: 12px;
+}
+
+.form-wrapper{
+    border: 0.5px solid #E7ECF0;
+}
+.printer-wrapper{    
+    display:"flex";
+    flex-direction: "column";
+    width:797px; 
+    border: 0.5px solid #E7ECF0; 
+}
+
+.submit-button{
+    margin-top:1rem;
+    border-radius: 30px;
+    font-family: "RobotoBold";
+    font-size: 15px;
+    color: #ffffff;
+    background: #1da1f2;
+    padding: 7.5px 30px 7.5px 30px;
+    border: none;
+    margin-left:700px;
+}
+
+.submit-button:hover{
+    background: #3cb0fd;
+}
+
+textarea::placeholder, input::placeholder{
+    font-family:"RobotoRegular";
+    color:#828282;
+    font-size: 15px;
+    padding-left: 2rem;
+}
+
+.content-wrapper{
+    margin-top:1rem;
+    border:none;
+    border-top: 0.5px solid #E7ECF0;
+}
+
+.name-wrapper{
+    border: 0.5px solid #E7ECF0;
+    margin-top:1rem;
+}
